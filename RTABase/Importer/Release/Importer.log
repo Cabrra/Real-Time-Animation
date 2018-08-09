@@ -1,0 +1,4 @@
+﻿  EDApp.cpp
+f:\users\jake\github\real-time-animation\rtabase\importer\source\edapp.h(4): fatal error C1083: Cannot open include file: 'vector': No such file or directory
+  Main.cpp
+f:\users\jake\github\real-time-animation\rtabase\importer\source\main.cpp(5): fatal error C1083: Cannot open include file: 'GLee.h': No such file or directory

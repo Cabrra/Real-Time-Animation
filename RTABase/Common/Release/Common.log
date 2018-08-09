@@ -1,0 +1,214 @@
+﻿  ArtLoader.cpp
+f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): warning C4624: 'matrix4<float>': destructor was implicitly defined as deleted
+  f:\users\jake\github\real-time-animation\rtabase\common\source\mesh.h(31): note: see reference to class template instantiation 'matrix4<float>' being compiled
+f:\users\jake\github\real-time-animation\rtabase\common\source\mesh.h(35): warning C4624: 'Mesh::Joint': destructor was implicitly defined as deleted
+f:\users\jake\github\real-time-animation\rtabase\common\source\animation.h(19): warning C4624: 'Animation<matrix4f>::Key': destructor was implicitly defined as deleted
+  f:\users\jake\github\real-time-animation\rtabase\common\source\artloader.cpp(87): note: see reference to class template instantiation 'Animation<matrix4f>::Key' being compiled
+f:\users\jake\github\real-time-animation\rtabase\common\source\artloader.cpp(86): error C2280: 'matrix4<float>::~matrix4(void)': attempting to reference a deleted function
+  f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): note: compiler has generated 'matrix4<float>::~matrix4' here
+  f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): note: 'matrix4<float>::~matrix4(void)': function was implicitly deleted because 'matrix4<float>' has a variant data member 'matrix4<float>::<unnamed-tag>::axis_x' with a non-trivial destructor
+  f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(28): note: see declaration of 'matrix4<float>::<unnamed-tag>::axis_x'
+  Deformer.cpp
+f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): warning C4624: 'matrix4<float>': destructor was implicitly defined as deleted
+  f:\users\jake\github\real-time-animation\rtabase\common\source\mesh.h(31): note: see reference to class template instantiation 'matrix4<float>' being compiled
+f:\users\jake\github\real-time-animation\rtabase\common\source\mesh.h(35): warning C4624: 'Mesh::Joint': destructor was implicitly defined as deleted
+f:\users\jake\github\real-time-animation\rtabase\common\source\deformer.cpp(40): error C2280: 'matrix4<float>::~matrix4(void)': attempting to reference a deleted function
+  f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): note: compiler has generated 'matrix4<float>::~matrix4' here
+  f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): note: 'matrix4<float>::~matrix4(void)': function was implicitly deleted because 'matrix4<float>' has a variant data member 'matrix4<float>::<unnamed-tag>::axis_x' with a non-trivial destructor
+  f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(28): note: see declaration of 'matrix4<float>::<unnamed-tag>::axis_x'
+  EDCamera.cpp
+f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): warning C4624: 'matrix4<float>': destructor was implicitly defined as deleted
+  f:\users\jake\github\real-time-animation\rtabase\common\source\edframe.h(27): note: see reference to class template instantiation 'matrix4<float>' being compiled
+f:\users\jake\github\real-time-animation\rtabase\common\source\edframe.h(49): error C2280: 'matrix4<float>::~matrix4(void)': attempting to reference a deleted function
+  f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): note: compiler has generated 'matrix4<float>::~matrix4' here
+  f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): note: 'matrix4<float>::~matrix4(void)': function was implicitly deleted because 'matrix4<float>' has a variant data member 'matrix4<float>::<unnamed-tag>::axis_x' with a non-trivial destructor
+  f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(28): note: see declaration of 'matrix4<float>::<unnamed-tag>::axis_x'
+  Entity.cpp
+f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): warning C4624: 'matrix4<float>': destructor was implicitly defined as deleted
+  f:\users\jake\github\real-time-animation\rtabase\common\source\animationblender.h(136): note: see reference to class template instantiation 'matrix4<float>' being compiled
+  f:\users\jake\github\real-time-animation\rtabase\common\source\animationblender.h(83): note: while compiling class template member function 'void AnimationBlender<matrix4f>::Process(float)'
+  f:\users\jake\github\real-time-animation\rtabase\common\source\entity.cpp(17): note: see reference to function template instantiation 'void AnimationBlender<matrix4f>::Process(float)' being compiled
+  f:\users\jake\github\real-time-animation\rtabase\common\source\entity.h(35): note: see reference to class template instantiation 'AnimationBlender<matrix4f>' being compiled
+f:\users\jake\github\real-time-animation\rtabase\common\source\animationblender.h(136): error C2280: 'matrix4<float>::~matrix4(void)': attempting to reference a deleted function
+  f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): note: compiler has generated 'matrix4<float>::~matrix4' here
+  f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): note: 'matrix4<float>::~matrix4(void)': function was implicitly deleted because 'matrix4<float>' has a variant data member 'matrix4<float>::<unnamed-tag>::axis_x' with a non-trivial destructor
+  f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(28): note: see declaration of 'matrix4<float>::<unnamed-tag>::axis_x'
+  FBXLoader.cpp
+f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): warning C4624: 'matrix4<float>': destructor was implicitly defined as deleted
+  f:\users\jake\github\real-time-animation\rtabase\common\source\mesh.h(31): note: see reference to class template instantiation 'matrix4<float>' being compiled
+f:\users\jake\github\real-time-animation\rtabase\common\source\mesh.h(35): warning C4624: 'Mesh::Joint': destructor was implicitly defined as deleted
+f:\users\jake\github\real-time-animation\rtabase\common\source\fbxloader.cpp(115): error C2653: 'fbxsdk_2015_1': is not a class or namespace name
+f:\users\jake\github\real-time-animation\rtabase\common\source\fbxloader.cpp(281): error C2653: 'fbxsdk_2015_1': is not a class or namespace name
+f:\users\jake\github\real-time-animation\rtabase\common\source\fbxloader.cpp(282): error C2653: 'fbxsdk_2015_1': is not a class or namespace name
+f:\users\jake\github\real-time-animation\rtabase\common\source\fbxloader.cpp(405): error C2653: 'fbxsdk_2015_1': is not a class or namespace name
+f:\users\jake\github\real-time-animation\rtabase\common\source\animation.h(19): warning C4624: 'Animation<matrix4f>::Key': destructor was implicitly defined as deleted
+  f:\users\jake\github\real-time-animation\rtabase\common\source\fbxloader.cpp(458): note: see reference to class template instantiation 'Animation<matrix4f>::Key' being compiled
+  IdleState.cpp
+f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): warning C4624: 'matrix4<float>': destructor was implicitly defined as deleted
+  f:\users\jake\github\real-time-animation\rtabase\common\source\animationmanager.h(54): note: see reference to class template instantiation 'matrix4<float>' being compiled
+  f:\users\jake\github\real-time-animation\rtabase\common\source\animationmanager.h(52): note: while compiling class template member function 'AnimationManager<matrix4f> *AnimationManager<matrix4f>::GetInstance(void)'
+  f:\users\jake\github\real-time-animation\rtabase\common\source\idlestate.cpp(27): note: see reference to function template instantiation 'AnimationManager<matrix4f> *AnimationManager<matrix4f>::GetInstance(void)' being compiled
+  f:\users\jake\github\real-time-animation\rtabase\common\source\idlestate.cpp(27): note: see reference to class template instantiation 'AnimationManager<matrix4f>' being compiled
+f:\users\jake\github\real-time-animation\rtabase\common\source\animation.h(19): warning C4624: 'Animation<T>::Key': destructor was implicitly defined as deleted
+          with
+          [
+              T=matrix4f
+          ]
+  f:\users\jake\github\real-time-animation\rtabase\common\source\interpolator.h(141): note: see reference to class template instantiation 'Animation<T>::Key' being compiled
+          with
+          [
+              T=matrix4f
+          ]
+  f:\users\jake\github\real-time-animation\rtabase\common\source\interpolator.h(127): note: while compiling class template member function 'void Interpolator<T>::ProcessChannels(const std::vector<Animation<T>::Channel,std::allocator<_Ty>> &)'
+          with
+          [
+              T=matrix4f,
+              _Ty=Animation<matrix4f>::Channel
+          ]
+  f:\users\jake\github\real-time-animation\rtabase\common\source\interpolator.h(111): note: see reference to function template instantiation 'void Interpolator<T>::ProcessChannels(const std::vector<Animation<T>::Channel,std::allocator<_Ty>> &)' being compiled
+          with
+          [
+              T=matrix4f,
+              _Ty=Animation<matrix4f>::Channel
+          ]
+  f:\users\jake\github\real-time-animation\rtabase\common\source\animationblender.h(63): note: while compiling class template member function 'void AnimationBlender<matrix4f>::TransitionTo(Animation<T> *,float)'
+          with
+          [
+              T=matrix4f
+          ]
+  f:\users\jake\github\real-time-animation\rtabase\common\source\idlestate.cpp(29): note: see reference to function template instantiation 'void AnimationBlender<matrix4f>::TransitionTo(Animation<T> *,float)' being compiled
+          with
+          [
+              T=matrix4f
+          ]
+  f:\users\jake\github\real-time-animation\rtabase\common\source\entity.h(35): note: see reference to class template instantiation 'AnimationBlender<matrix4f>' being compiled
+f:\users\jake\github\real-time-animation\rtabase\common\source\interpolator.h(185): error C2280: 'matrix4<float>::~matrix4(void)': attempting to reference a deleted function
+  f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): note: compiler has generated 'matrix4<float>::~matrix4' here
+  f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): note: 'matrix4<float>::~matrix4(void)': function was implicitly deleted because 'matrix4<float>' has a variant data member 'matrix4<float>::<unnamed-tag>::axis_x' with a non-trivial destructor
+  f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(28): note: see declaration of 'matrix4<float>::<unnamed-tag>::axis_x'
+  TubeLoader.cpp
+f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): warning C4624: 'matrix4<float>': destructor was implicitly defined as deleted
+  f:\users\jake\github\real-time-animation\rtabase\common\source\mesh.h(31): note: see reference to class template instantiation 'matrix4<float>' being compiled
+f:\users\jake\github\real-time-animation\rtabase\common\source\mesh.h(35): warning C4624: 'Mesh::Joint': destructor was implicitly defined as deleted
+f:\users\jake\github\real-time-animation\rtabase\common\source\animation.h(19): warning C4624: 'Animation<matrix4f>::Key': destructor was implicitly defined as deleted
+  f:\users\jake\github\real-time-animation\rtabase\common\source\tubeloader.cpp(93): note: see reference to class template instantiation 'Animation<matrix4f>::Key' being compiled
+f:\users\jake\github\real-time-animation\rtabase\common\source\tubeloader.cpp(105): error C2280: 'matrix4<float> &matrix4<float>::operator =(const matrix4<float> &)': attempting to reference a deleted function
+  f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): note: compiler has generated 'matrix4<float>::operator =' here
+  f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): note: 'matrix4<float> &matrix4<float>::operator =(const matrix4<float> &)': function was implicitly deleted because 'matrix4<float>' has a variant data member 'matrix4<float>::<unnamed-tag>::axis_x' with a non-trivial copy assignment operator
+  f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(28): note: see declaration of 'matrix4<float>::<unnamed-tag>::axis_x'
+  Mesh.cpp
+f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): warning C4624: 'matrix4<float>': destructor was implicitly defined as deleted
+  f:\users\jake\github\real-time-animation\rtabase\common\source\mesh.h(31): note: see reference to class template instantiation 'matrix4<float>' being compiled
+f:\users\jake\github\real-time-animation\rtabase\common\source\mesh.h(35): warning C4624: 'Mesh::Joint': destructor was implicitly defined as deleted
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\xmemory0(926): error C2280: 'void *Mesh::Joint::__delDtor(unsigned int)': attempting to reference a deleted function
+  f:\users\jake\github\real-time-animation\rtabase\common\source\mesh.h(35): note: compiler has generated 'Mesh::Joint::~Joint' here
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\xmemory0(1180): note: see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::destroy<_Ty>(_Alloc &,_Uty *const )' being compiled
+          with
+          [
+              _Alloc=std::allocator<Mesh::Joint>,
+              _Ty=Mesh::Joint,
+              _Uty=Mesh::Joint
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\xmemory0(1180): note: see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::destroy<_Ty>(_Alloc &,_Uty *const )' being compiled
+          with
+          [
+              _Alloc=std::allocator<Mesh::Joint>,
+              _Ty=Mesh::Joint,
+              _Uty=Mesh::Joint
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\xmemory0(1204): note: see reference to function template instantiation 'void std::_Destroy_range1<_Alloc>(Mesh::Joint *,Mesh::Joint *,_Alloc &,std::false_type)' being compiled
+          with
+          [
+              _Alloc=std::allocator<Mesh::Joint>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\vector(1948): note: see reference to function template instantiation 'void std::_Destroy_range<std::allocator<_Ty>>(Mesh::Joint *,Mesh::Joint *,_Alloc &)' being compiled
+          with
+          [
+              _Ty=Mesh::Joint,
+              _Alloc=std::allocator<Mesh::Joint>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\vector(1947): note: while compiling class template member function 'void std::vector<Mesh::Joint,std::allocator<_Ty>>::_Destroy(Mesh::Joint *,Mesh::Joint *)'
+          with
+          [
+              _Ty=Mesh::Joint
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\vector(2014): note: see reference to function template instantiation 'void std::vector<Mesh::Joint,std::allocator<_Ty>>::_Destroy(Mesh::Joint *,Mesh::Joint *)' being compiled
+          with
+          [
+              _Ty=Mesh::Joint
+          ]
+  f:\users\jake\github\real-time-animation\rtabase\common\source\mesh.h(91): note: see reference to class template instantiation 'std::vector<Mesh::Joint,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=Mesh::Joint
+          ]
+  ProcInterpolator.cpp
+f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): warning C4624: 'matrix4<float>': destructor was implicitly defined as deleted
+  f:\users\jake\github\real-time-animation\rtabase\common\source\animation.h(18): note: see reference to class template instantiation 'matrix4<float>' being compiled
+  f:\users\jake\github\real-time-animation\rtabase\common\source\procinterpolator.cpp(24): note: see reference to class template instantiation 'Animation<T>::Key' being compiled
+          with
+          [
+              T=matrix4f
+          ]
+f:\users\jake\github\real-time-animation\rtabase\common\source\animation.h(19): warning C4624: 'Animation<T>::Key': destructor was implicitly defined as deleted
+          with
+          [
+              T=matrix4f
+          ]
+f:\users\jake\github\real-time-animation\rtabase\common\source\procinterpolator.cpp(24): error C2280: 'matrix4<float> &matrix4<float>::operator =(const matrix4<float> &)': attempting to reference a deleted function
+  f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): note: compiler has generated 'matrix4<float>::operator =' here
+  f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): note: 'matrix4<float> &matrix4<float>::operator =(const matrix4<float> &)': function was implicitly deleted because 'matrix4<float>' has a variant data member 'matrix4<float>::<unnamed-tag>::axis_x' with a non-trivial copy assignment operator
+  f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(28): note: see declaration of 'matrix4<float>::<unnamed-tag>::axis_x'
+  WalkState.cpp
+f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): warning C4624: 'matrix4<float>': destructor was implicitly defined as deleted
+  f:\users\jake\github\real-time-animation\rtabase\common\source\animationmanager.h(54): note: see reference to class template instantiation 'matrix4<float>' being compiled
+  f:\users\jake\github\real-time-animation\rtabase\common\source\animationmanager.h(52): note: while compiling class template member function 'AnimationManager<matrix4f> *AnimationManager<matrix4f>::GetInstance(void)'
+  f:\users\jake\github\real-time-animation\rtabase\common\source\walkstate.cpp(27): note: see reference to function template instantiation 'AnimationManager<matrix4f> *AnimationManager<matrix4f>::GetInstance(void)' being compiled
+  f:\users\jake\github\real-time-animation\rtabase\common\source\walkstate.cpp(27): note: see reference to class template instantiation 'AnimationManager<matrix4f>' being compiled
+f:\users\jake\github\real-time-animation\rtabase\common\source\animation.h(19): warning C4624: 'Animation<T>::Key': destructor was implicitly defined as deleted
+          with
+          [
+              T=matrix4f
+          ]
+  f:\users\jake\github\real-time-animation\rtabase\common\source\interpolator.h(141): note: see reference to class template instantiation 'Animation<T>::Key' being compiled
+          with
+          [
+              T=matrix4f
+          ]
+  f:\users\jake\github\real-time-animation\rtabase\common\source\interpolator.h(127): note: while compiling class template member function 'void Interpolator<T>::ProcessChannels(const std::vector<Animation<T>::Channel,std::allocator<_Ty>> &)'
+          with
+          [
+              T=matrix4f,
+              _Ty=Animation<matrix4f>::Channel
+          ]
+  f:\users\jake\github\real-time-animation\rtabase\common\source\interpolator.h(111): note: see reference to function template instantiation 'void Interpolator<T>::ProcessChannels(const std::vector<Animation<T>::Channel,std::allocator<_Ty>> &)' being compiled
+          with
+          [
+              T=matrix4f,
+              _Ty=Animation<matrix4f>::Channel
+          ]
+  f:\users\jake\github\real-time-animation\rtabase\common\source\animationblender.h(63): note: while compiling class template member function 'void AnimationBlender<matrix4f>::TransitionTo(Animation<T> *,float)'
+          with
+          [
+              T=matrix4f
+          ]
+  f:\users\jake\github\real-time-animation\rtabase\common\source\walkstate.cpp(29): note: see reference to function template instantiation 'void AnimationBlender<matrix4f>::TransitionTo(Animation<T> *,float)' being compiled
+          with
+          [
+              T=matrix4f
+          ]
+  f:\users\jake\github\real-time-animation\rtabase\common\source\entity.h(35): note: see reference to class template instantiation 'AnimationBlender<matrix4f>' being compiled
+f:\users\jake\github\real-time-animation\rtabase\common\source\interpolator.h(185): error C2280: 'matrix4<float>::~matrix4(void)': attempting to reference a deleted function
+  f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): note: compiler has generated 'matrix4<float>::~matrix4' here
+  f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): note: 'matrix4<float>::~matrix4(void)': function was implicitly deleted because 'matrix4<float>' has a variant data member 'matrix4<float>::<unnamed-tag>::axis_x' with a non-trivial destructor
+  f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(28): note: see declaration of 'matrix4<float>::<unnamed-tag>::axis_x'
+  XMLLoader.cpp
+f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): warning C4624: 'matrix4<float>': destructor was implicitly defined as deleted
+  f:\users\jake\github\real-time-animation\rtabase\common\source\mesh.h(31): note: see reference to class template instantiation 'matrix4<float>' being compiled
+f:\users\jake\github\real-time-animation\rtabase\common\source\mesh.h(35): warning C4624: 'Mesh::Joint': destructor was implicitly defined as deleted
+f:\users\jake\github\real-time-animation\rtabase\common\source\xmlloader.cpp(44): error C2280: 'matrix4<float>::~matrix4(void)': attempting to reference a deleted function
+  f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): note: compiler has generated 'matrix4<float>::~matrix4' here
+  f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(293): note: 'matrix4<float>::~matrix4(void)': function was implicitly deleted because 'matrix4<float>' has a variant data member 'matrix4<float>::<unnamed-tag>::axis_x' with a non-trivial destructor
+  f:\users\jake\github\real-time-animation\rtabase\common\source\matrix4.h(28): note: see declaration of 'matrix4<float>::<unnamed-tag>::axis_x'
+f:\users\jake\github\real-time-animation\rtabase\common\source\animation.h(19): warning C4624: 'Animation<matrix4f>::Key': destructor was implicitly defined as deleted
+  f:\users\jake\github\real-time-animation\rtabase\common\source\xmlloader.cpp(295): note: see reference to class template instantiation 'Animation<matrix4f>::Key' being compiled

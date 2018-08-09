@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Common", "Common\Common.vcxproj", "{B2487BE6-BD16-4536-833A-08F3F491BD92}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Articulated", "Articulated\Articulated.vcxproj", "{3932C2E6-34F4-4B8E-8781-C57CD918B873}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B2487BE6-BD16-4536-833A-08F3F491BD92} = {B2487BE6-BD16-4536-833A-08F3F491BD92}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Blending", "Blending\Blending.vcxproj", "{735A78D5-EF43-40D5-9972-8351C25EE3F5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B2487BE6-BD16-4536-833A-08F3F491BD92} = {B2487BE6-BD16-4536-833A-08F3F491BD92}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Importer", "Importer\Importer.vcxproj", "{4ED170AB-270A-407F-8FF3-484341337AC8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B2487BE6-BD16-4536-833A-08F3F491BD92} = {B2487BE6-BD16-4536-833A-08F3F491BD92}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vertex Morphing", "Vertex Morphing\Vertex Morphing.vcxproj", "{BE814AD2-F490-4FB2-B246-7D7BC8D26044}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B2487BE6-BD16-4536-833A-08F3F491BD92} = {B2487BE6-BD16-4536-833A-08F3F491BD92}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Skinning", "Skinning\Skinning.vcxproj", "{0BE6DAFB-2F36-4CF1-B1D0-D03F7A4BE986}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B2487BE6-BD16-4536-833A-08F3F491BD92} = {B2487BE6-BD16-4536-833A-08F3F491BD92}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2487BE6-BD16-4536-833A-08F3F491BD92}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B2487BE6-BD16-4536-833A-08F3F491BD92}.Debug|Win32.Build.0 = Debug|Win32
+		{B2487BE6-BD16-4536-833A-08F3F491BD92}.Release|Win32.ActiveCfg = Release|Win32
+		{B2487BE6-BD16-4536-833A-08F3F491BD92}.Release|Win32.Build.0 = Release|Win32
+		{3932C2E6-34F4-4B8E-8781-C57CD918B873}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3932C2E6-34F4-4B8E-8781-C57CD918B873}.Debug|Win32.Build.0 = Debug|Win32
+		{3932C2E6-34F4-4B8E-8781-C57CD918B873}.Release|Win32.ActiveCfg = Release|Win32
+		{3932C2E6-34F4-4B8E-8781-C57CD918B873}.Release|Win32.Build.0 = Release|Win32
+		{735A78D5-EF43-40D5-9972-8351C25EE3F5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{735A78D5-EF43-40D5-9972-8351C25EE3F5}.Debug|Win32.Build.0 = Debug|Win32
+		{735A78D5-EF43-40D5-9972-8351C25EE3F5}.Release|Win32.ActiveCfg = Release|Win32
+		{735A78D5-EF43-40D5-9972-8351C25EE3F5}.Release|Win32.Build.0 = Release|Win32
+		{4ED170AB-270A-407F-8FF3-484341337AC8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4ED170AB-270A-407F-8FF3-484341337AC8}.Debug|Win32.Build.0 = Debug|Win32
+		{4ED170AB-270A-407F-8FF3-484341337AC8}.Release|Win32.ActiveCfg = Release|Win32
+		{4ED170AB-270A-407F-8FF3-484341337AC8}.Release|Win32.Build.0 = Release|Win32
+		{BE814AD2-F490-4FB2-B246-7D7BC8D26044}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BE814AD2-F490-4FB2-B246-7D7BC8D26044}.Debug|Win32.Build.0 = Debug|Win32
+		{BE814AD2-F490-4FB2-B246-7D7BC8D26044}.Release|Win32.ActiveCfg = Release|Win32
+		{BE814AD2-F490-4FB2-B246-7D7BC8D26044}.Release|Win32.Build.0 = Release|Win32
+		{0BE6DAFB-2F36-4CF1-B1D0-D03F7A4BE986}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0BE6DAFB-2F36-4CF1-B1D0-D03F7A4BE986}.Debug|Win32.Build.0 = Debug|Win32
+		{0BE6DAFB-2F36-4CF1-B1D0-D03F7A4BE986}.Release|Win32.ActiveCfg = Release|Win32
+		{0BE6DAFB-2F36-4CF1-B1D0-D03F7A4BE986}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {285541C5-7AE1-473F-9E96-F1F617AA43EA}
+	EndGlobalSection
+EndGlobal

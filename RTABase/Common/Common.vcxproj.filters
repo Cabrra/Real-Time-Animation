@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{11572cf3-51a7-46b7-b1e8-a8edfd4a5532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{9d69c288-7831-456d-a1f2-6d2cd51602df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OGL">
+      <UniqueIdentifier>{cac9ab15-bc69-449c-90d2-210f074a76b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{0b7e5ef8-6cc8-4784-ae79-22d139373c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State Machine">
+      <UniqueIdentifier>{fa073041-96b8-41a6-a07c-086d41c8b5a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyXML">
+      <UniqueIdentifier>{daa90985-53d3-4cb8-85c2-20c118190718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Loader">
+      <UniqueIdentifier>{c963941c-d677-4487-be88-40749bc67761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mesh">
+      <UniqueIdentifier>{53b660f1-f329-4e57-ad5e-a6e8d3c5aa15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\FBXLoader.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EDCamera.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Entity.cpp">
+      <Filter>State Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GLee.c">
+      <Filter>OGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IdleState.cpp">
+      <Filter>State Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mesh.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OGLTexture.cpp">
+      <Filter>OGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\State.cpp">
+      <Filter>State Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StateMachine.cpp">
+      <Filter>State Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WalkState.cpp">
+      <Filter>State Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\tinystr.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\tinyxml.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\tinyxmlerror.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\tinyxmlparser.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ProcInterpolator.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\XMLLoader.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ArtLoader.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\VertLoader.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TubeLoader.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Deformer.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Animation.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FBXLoader.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AnimationBlender.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AnimationManager.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EDCamera.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EDFrame.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EDNode.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Entity.h">
+      <Filter>State Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GLee.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IdleState.h">
+      <Filter>State Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Interpolator.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\matrix3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\matrix4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\vec3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\vec4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mesh.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OGLTexture.h">
+      <Filter>OGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\State.h">
+      <Filter>State Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StateMachine.h">
+      <Filter>State Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WalkState.h">
+      <Filter>State Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Timer.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\tinystr.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\tinyxml.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ProcInterpolator.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\XMLLoader.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ArtLoader.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\VertLoader.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TubeLoader.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Deformer.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
