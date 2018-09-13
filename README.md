@@ -3,7 +3,7 @@ Real Time Animation Labs
 
 ## Overview
 
-![real time](https://github.com/Cabrra/cabrra.github.io/raw/master/Images/RTA.png)
+![real time](https://raw.githubusercontent.com/Cabrra/cabrra.github.io/master/Images/RTA.png?token=AI_RbbhWLN4jHByI_MnQaei-XPRDVZZoks5bo1U1wA%3D%3D)
 
 - Milestone one: enforce understanding of different animation 
 	+ Vertex Morphing
