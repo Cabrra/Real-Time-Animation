@@ -3,7 +3,7 @@ Real Time Animation Labs
 
 ## Overview
 
-![real time](https://github.com/Cabrra/cabrra.github.io/blob/master/Images/RTA.png)
+![real time](/Images/RTA.png)
 
 - Milestone one: enforce understanding of different animation 
 	+ Vertex Morphing
@@ -60,7 +60,7 @@ Please read [CONTRIBUTING.md](https://github.com/Cabrra/Contributing-template/bl
 
 ## Authors
 
-* **Kyle Turco**            - Course Director
+* **Kyle Turco**Â Â Â Â Â Â Â Â Â Â Â Â - Course Director
 * **Jagoba "Jake" Marcos** 	- Student implementation -[Cabrra](https://github.com/Cabrra)
 
 ## License
