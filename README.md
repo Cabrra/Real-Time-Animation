@@ -1,5 +1,5 @@
-Real Time Animation Labs
-========================
+Real Time Animation
+===================
 
 ## Overview
 
